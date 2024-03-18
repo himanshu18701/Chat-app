@@ -1,3 +1,13 @@
+import SideBar from "../components/SideBar";
+import Chat from "../components/Chat";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="home">
+      <div className="container">
+        <SideBar />
+        <Chat />
+      </div>
+    </div>
+  );
 }
